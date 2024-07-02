@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.gap-40 {
+  clear: both;
+  height: 40px;
+}
+/* Nav Bar */
+
+.navbar {
+    font-size: 20px;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar .navbar-left{
+  position: absolute;
+  left: 30%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar .navbar-brand{
+    color: #444444;
+    font-weight: 400;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.navbar li{
+  font-size: 1rem;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.navbar-nav li a{
+  color: #444444 !important;
+  font-weight: 400;
+  float: right;
+  text-align: left;
+}
+
+.navbar-toggler-icon {
+  border: none!important;
+  outline: none!important;
+}
+
+.navbar .navbar-nav li a {
+  transition: color 0.3s ease !important;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: green !important;
+}
+
+.navbar .navbar-nav li a.active {
+  color: green !important;
+}
+
+
+/* body */
+
+/*hero start*/
+.hero {
+    color: #444444;
+    padding-top: 7%; 
+    height: 80vh;
+}
+
+.hero .catchphrase{
+  color: #444444;
+  font-weight: bold;
+  font-size: 65px;
+  text-align: center;
+}
+
+.hero p{
+    font-size: 25px;
+    display: block; 
+    margin: auto; 
+    width: 70%;
+    text-align: center;
+}
+
+.hero .hero-text{
+  padding-top: 2%;
+}
+
+.hero .content-2{
+  display: flex; 
+  margin: auto; 
+  padding-top: 3%;
+  width: 50%;
+  text-align: center;
+}
+
+.hero h4{
+  font-size: 20px !important; 
+  margin-left: 10px;
+}
+
+
+/*specialization-section*/
+
+.specialization {
+  color: #444444;
+  padding-top: 8%; 
+  height: 80vh;
+}
+
+.specialization .container{
+  margin: auto; 
+  width: 70%;
+}
+
+.specialization .specialization-card{
+  display: block;
+  align-items: center;
+}
+
+.specialization .title{
+  color: #444444;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+.specialization p{
+  font-size: 25px;
+  text-align: center;
+}
+
+.specialization .icon i{
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.specialization .card-row{
+  margin-left: 10px;
+}
+
+.card-body{
+  padding: 20px;
+}
+
+.card-title{
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-text{
+  font-size: 20px !important;
+  padding-top: 20px;
+}
+.specialization .icon .fa-lg {
+  font-size: 50px; 
+}
+
+.specialization .hero-text{
+  padding-top: 2%;
+}
+
+/*specialization-section*/
+
+/*Healthcare-section*/
+
+.healthcare {
+  color: #444444;
+  padding-top: 7%; 
+  
+}
+
+.healthcare .container{
+  margin: auto; 
+  width: 60%;
+  align-items: center; /* Ensure the container aligns its children centrally */
+  justify-content: center; /* Center the image horizontally if container width is larger */
+}
+
+.healthcare .healthcare-title{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left;
+}
+
+.healthcare h2{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.tick {
+  font-size: 1.2em; /* Change this value to adjust the size of the tick mark */
+  color: green;
+  margin-right: 5px;
+}
+
+.healthcare p{
+  font-size: 25px;
+  text-align: left;
+}
+
+.healthcare .tick-list{
+  list-style-type: none;
+}
+
+.styled-image {
+  height: 100%; /* Fit the height of the container */
+  width: 550px; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly curved edges */
+  max-height: 100%; /* Ensure the image doesn't overflow */
+}
+
+/*Healthcare-section*/
+
+/*Aerospace-section*/
+
+.aerospace {
+  color: #444444;
+  padding-top: 7%; 
+  
+}
+
+.aerospace .container{
+  margin: auto; 
+  width: 60%;
+  align-items: center; /* Ensure the container aligns its children centrally */
+  justify-content: center; /* Center the image horizontally if container width is larger */
+}
+
+.aerospace .aerospace-title{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left;
+}
+
+.aerospace h2{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.aerospace p{
+  font-size: 25px;
+  text-align: left;
+}
+
+.aerospace .tick-list{
+  list-style-type: none;
+}
+
+/*Aerospace-section*/
+
+/*HVAC-section*/
+
+.hvac {
+  color: #444444;
+  padding-top: 7%; 
+  
+}
+
+.hvac .container{
+  margin: auto; 
+  width: 60%;
+  align-items: center; /* Ensure the container aligns its children centrally */
+  justify-content: center; /* Center the image horizontally if container width is larger */
+}
+
+.hvac .hvac-title{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left;
+}
+
+.hvac h2{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.hvac p{
+  font-size: 25px;
+  text-align: left;
+}
+
+.hvac .tick-list{
+  list-style-type: none;
+}
+
+/*HVAC-section*/
+
+/*FABRICATION-section*/
+
+.fabrication {
+  color: #444444;
+  padding-top: 7%; 
+  
+}
+
+.fabrication .container{
+  margin: auto; 
+  width: 60%;
+  align-items: center; /* Ensure the container aligns its children centrally */
+  justify-content: center; /* Center the image horizontally if container width is larger */
+}
+
+.fabrication .fabrication-title{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left;
+}
+
+.fabrication h2{
+  color: #4682b4;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+.fabrication p{
+  font-size: 25px;
+  text-align: left;
+}
+
+.fabrication .tick-list{
+  list-style-type: none;
+}
+
+/*FABRICATION-section*/
+
+/*Profile*/
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+/* Footer */
+.wave{
+  background-image: linear-gradient(to right, #1f005c, #ffb56b);}
+
+.footer {
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  }
+ 
+  .footer .column-left{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+    
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #242424;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #242424;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #242424;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .footer .footer-bottom{
+    width: 100%;
+  }
+  
